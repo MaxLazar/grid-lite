@@ -1,0 +1,15 @@
+{
+        "schema_version": "1.0",
+        "name" : "grid_lite",
+        "label": "Grid Lite",
+        "version": "1.7.1",
+        "types": ["fieldtype"],
+        "paths": {
+                "system": [
+                        "system/expressionengine/third_party/grid_lite"
+                ],
+                "themes": [
+                        "themes/third_party/grid_lite"
+                ]
+        }
+}

@@ -1,0 +1,125 @@
+.grid_lite-add {
+    font-family: Consolas,Monaco,Courier,monospace;
+    marge-bottom: 10px;
+    position: relative;
+    width: 100px;
+}
+#grid_table td { padding: 5px }
+#grid_table input {
+    padding: 0px;
+    margin: 0px;
+}
+#grid_table input:active { border: 1px }
+table.grid_lite th,
+table.grid_lite td {
+    vertical-align: top;
+    text-align: left;
+}
+table.grid_lite { background-color: #fff }
+table.grid_lite tr { height: 25px }
+table.grid_lite td {
+    border-right: #E0E0E0 solid 1px;
+    border-left: #F7F7F7 solid 1px;
+    padding: 2px 10px 2px 10px;
+    border-bottom: #E0E0E0 solid 1px;
+}
+table.grid_lite textarea {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    min-width: 70px;
+    font-family: Consolas,Monaco,Courier,monospace;
+    font-size: 11px;
+    border: none !important;
+    background: none;
+    resize: none;
+    outline: none;
+}
+table.grid_lite .index {
+    width: 20px;
+    border-right: 1px solid #E0E0E0;
+    text-align: center;
+    padding: 3px 0px 3px 0px;
+    margin: 0px;
+    border-top-left-radius: 2px;
+    -webkit-border-top-left-radius: 2px;
+    -moz-border-radius-topleft: 3px;
+    font-weight: 600;
+}
+table.grid_lite .cplables { WIDTH: 100px }
+table.grid_lite .last {
+    border-right: 0px;
+    border-left: #F7F7F7 solid 1px;
+    border-top-right-radius: 2px;
+    -webkit-border-top-right-radius: 2px;
+    -moz-border-radius-topright: 3px;
+}
+table.grid_lite .last-tr td { border-bottom: 0px }
+.grid_lite-btn {
+    display: block;
+    margin: 3px 0 0 2px;
+}
+.file-cell { width: 200px }
+.noborders { border-bottom: 0px }
+.grid-config span { width: 130px }
+.grid-config { table-layout: fixed }
+/*##### the dragtable stuff #####*/
+.dragtable-sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+    position: absolute;
+}
+.dragtable-sortable li {
+    margin: 0;
+    padding: 0;
+    float: left;
+    font-size: 1em;
+}
+.dragtable-sortable th,
+.dragtable-sortable td { border-left: 10px }
+.dragtable-sortable li:first-child th,
+.dragtable-sortable li:first-child td { border-left: 1px solid #CCC }
+.ui-sortable-helper {
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.ui-sortable-placeholder { visibility: visible !important }
+.ui-sortable-placeholder * {
+    opacity: 0.7;
+    visibility: hidden;
+}
+table.grid-config textarea { background-color: #ffffff }
+.some-handle {
+    cursor: move;
+    cursor: -webkit-grab !important;
+    cursor: -moz-grab !important;
+}
+span.grid_delete {
+    float: right;
+    padding-right: 5px;
+    background: transparent url(../images/remove.png) no-repeat left top;
+    display: block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+span.grid_lite-sort {
+    float: right;
+    padding-right: 4px;
+    background: transparent url(../images/sort.png) no-repeat left top;
+    display: block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+span.grid_lite-add {
+    padding-top: 5px;
+    background: transparent url(../images/add.png) no-repeat left top;
+    display: block;
+    height: 16px;
+    cursor: pointer;
+    padding-left: 20px;
+}
+.grid-config  th { width: 11em }
